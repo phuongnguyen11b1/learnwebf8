@@ -1,16 +1,16 @@
 
 /* PC  */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     
 }
 
 /* Tablet and mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 15px 16px;
     }
@@ -21,6 +21,7 @@
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
     }
 
     .contact-info {
@@ -43,7 +44,7 @@
 
 
 /* Mobile */
-@media (max-width: 739px)  {
+@media (max-width: 46.1875em)  {
     .s-mt-8{
         margin-top: 8px !important;
     }
